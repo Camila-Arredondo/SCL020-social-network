@@ -21,7 +21,7 @@ Amantes del cine mayores de 18 años, que buscan compartir con nuevos amigos ref
 
 ## Historias de usuario:
 
-## Historia de usuario 1:
+**Historia de usuario 1:**
 
 Yo como: Cinéfilo (+18)
 Quiero: poder decidir iniciar sesión o crear una cuenta en la red social.
@@ -34,7 +34,7 @@ Criterio de aceptación:
  - Crearse una cuenta
  - Iniciar sesión con su cuenta ya existente
 
-Historia de usuario 2:
+**Historia de usuario 2:**
 
 Yo como: Cinéfilo (+18) que ya está en la base de datos (usuario)
 Quiero: poder ver a otros usuarios comentando sobre peliculas, organizados según popularidad.
@@ -52,7 +52,7 @@ Visibilizar un scroll con un "ranking" de películas
  -  Crear post en el perfil del usuario
  -  CRUD Firebase
 
-Historia de usuario 3:
+**Historia de usuario 3:**
 
 Yo como: Cinéfilo (+18) que ya está en la base de datos (usuario).
 Quiero: poder ver mi propio perfil, crear mis propios post (editables/borrables) y llevar un conteo de usuarios
@@ -65,7 +65,7 @@ Criterio de aceptación:
  - editar mis post
  - borrar mis post
 
-Historia de usuario 4:
+**Historia de usuario 4:**
 
 Yo como: Cinéfilo (+18) que ya está en la base de datos (usuario).
 Quiero: cerrar sesión

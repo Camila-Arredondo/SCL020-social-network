@@ -26,8 +26,10 @@ export const posts = (querySnapshot, divFeed, containerRoot, where) => {
         <div class="post-box">
 			${where === "profile"
 				? `
-			<button class="btn-edit" data-id="${doc.id}">&#9997;</button>
-			<button class="btn-delete" data-id="${doc.id}">&#128465;</button>
+			<div class="postedbtn">
+				<button class="btn-edit" data-id="${doc.id}">&#9997;</button>
+				<button class="btn-delete" data-id="${doc.id}">&#128465;</button>
+			</div>
 			`:
 				`
 			<div class="likes">

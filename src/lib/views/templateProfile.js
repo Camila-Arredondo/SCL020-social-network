@@ -13,7 +13,7 @@ export const profile = (containerRoot) => {
         <main class="container-profile">
             <nav class="nav-web">
                 <div class="sub-nav-web">
-                    <a href="#/feed" class="containter-logo-ticket"><img class ="logo-navweb" src="https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/logo-removebg-preview.png?raw=true" alt="logo-ticket"></a>
+                    <a href="#/feed" class="container-logo"><img class ="logo-navweb" src="https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/logo-removebg-preview.png?raw=true" alt="logo-ticket"></a>
                     <div class="search-bar">
                         <div class="search-box">
                             <input class="search-input"type="text" name="" placeholder="Search...">
@@ -29,7 +29,7 @@ export const profile = (containerRoot) => {
             <div class="web-box">
                 <div class="user-profile">
                     <img src="https://github.com/fabibbc/SCL020-social-network/blob/main/src/img/logo-profile%20(1).png?raw=true" alt="img-user">
-                    <p>${auth.currentUser.displayName}</p>
+                    <p class="user-name">@${auth.currentUser.displayName}</p>
                     <button class="btn">Follow</button>   
                 </div>
                 <div class="user-data">
